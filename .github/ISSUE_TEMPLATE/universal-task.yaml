@@ -1,0 +1,39 @@
+name: "Tarea / Bug / Documentación"
+description: "Template único para cualquier tipo de issue"
+title: "[Área] Descripción breve"
+labels: ["pending"]
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: 📝 Descripción
+      description: "Describe qué hay que hacer o qué bug hay que resolver."
+      placeholder: "Ejemplo: Configurar GitHub Actions para desplegar el backend en AWS."
+  - type: textarea
+    id: pasos
+    attributes:
+      label: ✅ Pasos / Checklist
+      description: "Lista de subtareas o pasos para completarla."
+      placeholder: |
+        - [ ] Paso 1
+        - [ ] Paso 2
+  - type: textarea
+    id: criterios
+    attributes:
+      label: 📌 Definition of Done
+      description: "Cuándo se considera terminada la tarea."
+      placeholder: |
+        - Código probado localmente
+        - Tests pasan en CI/CD
+        - Documentación actualizada
+  - type: textarea
+    id: dependencias
+    attributes:
+      label: 🔗 Dependencias
+      description: "Menciona si esta tarea depende de otra issue o PR."
+      placeholder: "Ejemplo: depende de #12 para que la DB esté lista."
+  - type: textarea
+    id: notas
+    attributes:
+      label: 💡 Notas adicionales
+      description: "Contexto extra, screenshots o links."
