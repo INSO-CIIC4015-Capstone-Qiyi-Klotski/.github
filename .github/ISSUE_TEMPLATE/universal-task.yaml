@@ -1,39 +1,39 @@
-name: "Tarea / Bug / Documentación"
-description: "Template único para cualquier tipo de issue"
-title: "[Área] Descripción breve"
+name: "Task / Bug / Documentation"
+description: "Single template for any type of issue"
+title: "[Area] Short description"
 labels: ["pending"]
 body:
   - type: textarea
-    id: descripcion
+    id: description
     attributes:
-      label: 📝 Descripción
-      description: "Describe qué hay que hacer o qué bug hay que resolver."
-      placeholder: "Ejemplo: Configurar GitHub Actions para desplegar el backend en AWS."
+      label: 📝 Description
+      description: "Describe what needs to be done or what bug needs to be fixed."
+      placeholder: "Example: Configure GitHub Actions to deploy the backend on AWS."
   - type: textarea
-    id: pasos
+    id: steps
     attributes:
-      label: ✅ Pasos / Checklist
-      description: "Lista de subtareas o pasos para completarla."
+      label: ✅ Steps / Checklist
+      description: "List subtasks or steps to complete this issue."
       placeholder: |
-        - [ ] Paso 1
-        - [ ] Paso 2
+        - [ ] Step 1
+        - [ ] Step 2
   - type: textarea
-    id: criterios
+    id: done
     attributes:
       label: 📌 Definition of Done
-      description: "Cuándo se considera terminada la tarea."
+      description: "When this task is considered completed."
       placeholder: |
-        - Código probado localmente
-        - Tests pasan en CI/CD
-        - Documentación actualizada
+        - Code tested locally
+        - Tests pass in CI/CD
+        - Documentation updated
   - type: textarea
-    id: dependencias
+    id: dependencies
     attributes:
-      label: 🔗 Dependencias
-      description: "Menciona si esta tarea depende de otra issue o PR."
-      placeholder: "Ejemplo: depende de #12 para que la DB esté lista."
+      label: 🔗 Dependencies
+      description: "Mention if this task depends on another issue or PR."
+      placeholder: "Example: depends on #12 for the database to be ready."
   - type: textarea
-    id: notas
+    id: notes
     attributes:
-      label: 💡 Notas adicionales
-      description: "Contexto extra, screenshots o links."
+      label: 💡 Additional Notes
+      description: "Extra context, screenshots or links."
